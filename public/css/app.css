@@ -12059,7 +12059,6 @@ p {
   text-decoration: none;
   font-size: 16px;
   font-family: "Poppins", sans-serif;
-  font-weight: 600;
   padding: 10px 24px 10px 24px;
   line-height: 20px;
   transition: 0.5s ease-in;
@@ -12098,11 +12097,13 @@ p {
   font-size: 56px;
   font-weight: bold;
   color: #FFFFFF;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
 }
 .banner__subtitle {
   font-size: 24px;
   margin-top: 20px;
   color: #FFFFFF;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
 }
 .banner__button {
   background-color: #E8392C;
@@ -12113,6 +12114,7 @@ p {
   padding: 0;
   height: 50px;
   width: 150px;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
 }
 .banner__button__text {
   color: #FFFFFF;
@@ -12155,7 +12157,7 @@ p {
   color: #6f6f6f;
 }
 .about__button__small {
-  background-color: #FDEBEA;
+  background-color: white;
   border: none;
   outline: none;
   border-radius: 36px;
@@ -12165,7 +12167,6 @@ p {
 }
 .about__button__small__link {
   color: #E8392C;
-  font-weight: bold;
   text-decoration: none;
 }
 .about__button {
@@ -12206,7 +12207,7 @@ p {
   margin-bottom: 20px;
 }
 .services__button__small {
-  background-color: #FDEBEA;
+  background-color: white;
   border: none;
   outline: none;
   border-radius: 20px;
@@ -12216,7 +12217,6 @@ p {
 }
 .services__button__small__link {
   color: #E8392C;
-  font-weight: bold;
   text-decoration: none;
 }
 .services__card {
@@ -12279,6 +12279,11 @@ p {
   height: 550px;
   background-size: cover;
 }
+@media (max-width: 768px) {
+  .contact-banner {
+    height: 300px;
+  }
+}
 
 .contact-wrapper {
   width: 100%;
@@ -12290,7 +12295,7 @@ p {
   font-family: "Kanit", sans-serif;
 }
 .contact__button {
-  background-color: #FDEBEA;
+  background-color: white;
   border: none;
   outline: none;
   border-radius: 20px;
@@ -12300,7 +12305,6 @@ p {
 }
 .contact__button__link {
   color: #E8392C;
-  font-weight: bold;
   text-decoration: none;
 }
 .contact__title {
@@ -12381,6 +12385,15 @@ p {
   font-family: "Kanit", sans-serif;
   font-weight: 300;
 }
+@media (max-width: 768px) {
+  .footer__column {
+    padding-top: 10px;
+    width: 50%;
+  }
+}
+.footer__column > h4, .footer__column > .h4 {
+  text-decoration: underline;
+}
 .footer__column__brand {
   height: 100px;
   width: 115px;
@@ -12410,6 +12423,7 @@ p {
 }
 .footer__column__input__wrapper {
   position: relative;
+  padding: 5px 0;
 }
 .footer__column__input__icon-mail {
   position: absolute;
@@ -12424,7 +12438,7 @@ p {
   transform: translateY(-50%);
 }
 .footer__column__icons {
-  padding: 10px 0;
+  padding: 15px 0;
 }
 .footer__column__icon {
   padding: 0 10px;

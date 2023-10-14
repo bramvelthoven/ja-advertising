@@ -45,4 +45,6 @@
         </div>
     </div>
 </div>
-<div class="copyright">&copy 2023 advertising. All rights reserved. Development by Cellest Dev.</div>
+<div class="col-12 copyright">
+    <p>&copy 2023 advertising. All rights reserved. Development by Cellest Dev.</p>
+</div>

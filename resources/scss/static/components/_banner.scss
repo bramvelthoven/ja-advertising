@@ -18,12 +18,14 @@
         font-size: $h2-size;
         font-weight: bold;
         color: $ja-white;
+        text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
     }
 
     &__subtitle {
         font-size: 24px;
         margin-top: 20px;
         color: $ja-white;
+        text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
     }
 
     &__button {
@@ -35,6 +37,7 @@
         padding: 0;
         height: 50px;
         width: 150px;
+        text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
 
         &__text {
             color: $ja-white;

@@ -12,6 +12,14 @@
     font-weight: 300;
 
     &__column {
+        @media (max-width: 768px) {
+            padding-top: 10px;
+            width: 50%;
+        }
+
+        > h4 {
+            text-decoration: underline;
+        }
         &__brand {
             height: 100px;
             width: 115px;
@@ -46,6 +54,7 @@
 
             &__wrapper {
                 position: relative;
+                padding: 5px 0;
             }
 
             &__icon-mail {
@@ -65,7 +74,7 @@
         }
 
         &__icons {
-            padding: 10px 0;
+            padding: 15px 0;
 
         }
 
