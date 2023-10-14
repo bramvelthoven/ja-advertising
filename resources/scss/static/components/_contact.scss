@@ -1,0 +1,109 @@
+.contact-banner {
+    background: url('/images/pages/contact-bg.png') no-repeat;
+    height: 550px;
+    background-size: cover;
+}
+.contact-wrapper {
+    width: 100%;
+    background-color: $ja-gray-soft;
+}
+.contact {
+    height: 500px;
+    font-family: $font-family-kanit;
+
+    &__button {
+        background-color: $ja-red-soft;
+        border: none;
+        outline: none;
+        border-radius: 20px;
+        width: 175px;
+        height: 35px;
+        margin: 15px 0 10px;
+
+        &__link {
+            color: $ja-red;
+            font-weight: bold;
+            text-decoration: none;
+        }
+    }
+
+    &__title {
+        line-height: 56px;
+        font-weight: 500;
+        padding: 10px 0;
+    }
+
+    &__text {
+        font-size: 18px;
+        font-weight: 300;
+        line-height: 29px;
+    }
+
+    &__form {
+        background-color: $ja-red;
+        height: auto;
+        width: auto;
+        z-index: 50;
+        position: absolute;
+        top: 3065px;
+        min-width: 500px;
+
+
+        &__button {
+            background-color: $ja-white;
+            border-radius: 52px;
+            border: none;
+            outline: none;
+            padding: 0;
+            height: 50px;
+            width: 100%;
+            margin: 20px 0;
+            transition: 0.5s ease-in-out;
+
+            &:hover {
+                background-color: black;
+            }
+
+            &__link {
+                text-decoration: none;
+                color: $ja-red;
+                transition: 0.5s ease-in-out;
+
+                &:hover {
+                    color: $ja-white;
+                }
+            }
+        }
+
+        &__inner {
+            height: 100%;
+            width: 100%;
+            padding: 30px;
+        }
+
+        &__title {
+            color: $ja-white;
+            margin: 25px 0;
+        }
+
+        &__group {
+            &__label {
+                color: $ja-white;
+            }
+
+            &__input {
+                background: transparent;
+                border: none;
+                border-bottom: #ffffff 1px solid;
+                outline: none;
+                color: $ja-white;
+
+                &:focus {
+                    background: none;
+                    outline: none;
+                }
+            }
+        }
+    }
+}
+

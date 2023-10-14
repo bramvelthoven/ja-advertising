@@ -1,0 +1,35 @@
+// Fonts
+@import url('https://fonts.googleapis.com/css2?family=Kanit&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+$font-family-kanit: 'Kanit', sans-serif;
+$font-family-poppins: 'Poppins', sans-serif;
+
+// Font sizes
+
+$h1-size: 72px;
+$h2-size: 56px;
+$h3-size: 32px;
+$h4-size: 24px;
+$font-size-base: 16px;
+
+h1 {
+    font-size: $h1-size;
+}
+
+h2 {
+    font-size: $h2-size;
+}
+
+h3 {
+    font-size: $h3-size;
+    font-weight: normal;
+}
+
+h4 {
+    font-size: $h4-size;
+}
+
+p {
+    font-size: $font-size-base;
+}

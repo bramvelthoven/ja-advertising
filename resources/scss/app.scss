@@ -1,0 +1,22 @@
+// Bootstrap
+/* Variables */
+
+/* Bootstrap */
+
+@import '~bootstrap/scss/bootstrap';
+
+// Import global variables
+
+@import '../../../ja-advertising/resources/scss/base/typography';
+@import '../../../ja-advertising/resources/scss/base/colors';
+
+// Import components
+
+@import '../../../ja-advertising/resources/scss/static/components/navigation';
+@import '../../../ja-advertising/resources/scss/static/components/banner';
+@import '../../../ja-advertising/resources/scss/static/components/about';
+@import '../../../ja-advertising/resources/scss/static/components/services';
+@import '../../../ja-advertising/resources/scss/static/components/contact';
+@import '../../../ja-advertising/resources/scss/static/components/footer';
+
+

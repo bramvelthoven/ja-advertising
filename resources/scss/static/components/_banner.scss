@@ -1,0 +1,57 @@
+.banner {
+    position: relative;
+    background: url('/images/pages/banner.png') no-repeat;
+    display: flex;
+    flex-direction: column;
+    height: 750px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    background-size: cover;
+    font-family: $font-family-kanit;
+
+    &__wrapper {
+        padding: 20px;
+    }
+
+    &__title {
+        font-size: $h2-size;
+        font-weight: bold;
+        color: $ja-white;
+    }
+
+    &__subtitle {
+        font-size: 24px;
+        margin-top: 20px;
+        color: $ja-white;
+    }
+
+    &__button {
+        background-color: $ja-red;
+        border-radius: 36px;
+        border: none;
+        outline: none;
+        display: inline-block;
+        padding: 0;
+        height: 50px;
+        width: 150px;
+
+        &__text {
+            color: $ja-white;
+            font-weight: bold;
+            text-decoration: none;
+        }
+    }
+}
+
+.banner::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 35%;
+    background: linear-gradient(to bottom, #0C0C17 0%, rgba(12, 12, 23, 0) 100%);
+    pointer-events: none;
+    z-index: 1;
+}
