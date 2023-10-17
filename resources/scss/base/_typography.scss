@@ -1,5 +1,12 @@
 // Fonts
 @import url('https://fonts.googleapis.com/css2?family=Kanit&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@700&display=swap');
+
 @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
 
 $font-family-kanit: 'Kanit', sans-serif;
@@ -23,7 +30,6 @@ h2 {
 
 h3 {
     font-size: $h3-size;
-    font-weight: normal;
 }
 
 h4 {

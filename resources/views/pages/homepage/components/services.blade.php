@@ -1,6 +1,6 @@
 <div class="services__wrapper pb-4">
-    <div class="container mt-5 services" id="services">
-        <div class="row services__header">
+    <div class="container services" id="services">
+        <div class="row services__header pt-2 pt-md-5">
             <div class="col mb-4">
                 <button class="services__button__small">
                     <a class="services__button__small__link">Our Services</a>

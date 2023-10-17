@@ -12,7 +12,6 @@
     background-color: $ja-gray-soft;
 }
 .contact {
-    height: 500px;
     font-family: $font-family-kanit;
 
     &__button {
@@ -46,11 +45,13 @@
         background-color: $ja-red;
         height: auto;
         width: auto;
-        z-index: 50;
-        position: absolute;
-        top: 3065px;
-        min-width: 500px;
+        margin-bottom: 30px;
 
+        &__group {
+            display: flex;
+            flex-direction: column;
+            padding: 10px 0;
+        }
 
         &__button {
             background-color: $ja-white;
@@ -81,7 +82,7 @@
         &__inner {
             height: 100%;
             width: 100%;
-            padding: 30px;
+            padding: 40px;
         }
 
         &__title {
@@ -97,9 +98,13 @@
             &__input {
                 background: transparent;
                 border: none;
-                border-bottom: #ffffff 1px solid;
+                border-bottom: 1px solid rgba(255,255,255, 0.5);
                 outline: none;
                 color: $ja-white;
+
+                ::placeholder {
+                    color: $ja-white;
+                }
 
                 &:focus {
                     background: none;

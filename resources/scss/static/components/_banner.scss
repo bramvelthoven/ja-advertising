@@ -16,7 +16,6 @@
 
     &__title {
         font-size: $h2-size;
-        font-weight: bold;
         color: $ja-white;
         text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
     }
@@ -41,7 +40,6 @@
 
         &__text {
             color: $ja-white;
-            font-weight: bold;
             text-decoration: none;
         }
     }

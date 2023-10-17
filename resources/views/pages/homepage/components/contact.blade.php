@@ -1,5 +1,5 @@
 <div class="contact-banner" id="contact"></div>
-<div class="contact-wrapper pt-5">
+<div class="contact-wrapper pt-2 md-pt-5">
     <div class="container contact">
         <div class="row">
             <div class="col-md-7">
@@ -24,15 +24,15 @@
                     <form>
                         <div class="contact__form__group">
                             <label class="contact__form__group__label" for="name">Full name</label>
-                            <input type="text" class="contact__form__group__input form-control" id="name" name="name">
+                            <input type="text" class="contact__form__group__input" id="name" name="name">
                         </div>
                         <div class="contact__form__group">
                             <label class="contact__form__group__label" for="email">Email</label>
-                            <input type="email" class="contact__form__group__input form-control" id="email" name="email">
+                            <input type="email" class="contact__form__group__input" id="email" name="email">
                         </div>
                         <div class="contact__form__group mb-4">
                             <label class="contact__form__group__label" for="message">Message</label>
-                            <textarea class="contact__form__group__input form-control" id="message" name="message" rows="4"></textarea>
+                            <textarea class="contact__form__group__input" id="message" name="message" rows="4"></textarea>
                         </div>
                         <button type="submit" class="contact__form__button">
                             <a class="contact__form__button__link">Request Free Consultation</a></button>
