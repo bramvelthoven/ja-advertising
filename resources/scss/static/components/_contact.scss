@@ -2,6 +2,7 @@
     background: url('/images/pages/contact-bg.png') no-repeat;
     height: 550px;
     background-size: cover;
+    position: relative;
 
     @media (max-width: 768px) {
         height: 300px;
@@ -114,4 +115,3 @@
         }
     }
 }
-

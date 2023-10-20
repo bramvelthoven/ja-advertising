@@ -1,5 +1,6 @@
 <?php
 
+use App\Http\Controllers\PageController;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -16,3 +17,6 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', function () {
     return view('pages.homepage.home');
 });
+
+// Form controller
+Route::any( "sendemail" , "App\Http\Controllers\PageController@post_message_send");

@@ -1,4 +1,4 @@
-<div class="contact-banner" id="contact"></div>
+<div class="contact-banner"></div>
 <div class="contact-wrapper pt-2 md-pt-5">
     <div class="container contact">
         <div class="row">
@@ -17,11 +17,15 @@
             </div>
 
             <div class="col-md-5">
-                <div class="contact__form">
+                <div class="contact__form" id="contact">
                     <div class="contact__form__inner">
                     <h3 class="contact__form__title">Reach out by the <br>
                     form below.</h3>
-                    <form>
+                        <form id="captcha" action="sendemail" method="POST" >
+                            @csrf
+                            @if(Session::has('message'))
+                                    {{ Session::get('message') }}
+                            @endif
                         <div class="contact__form__group">
                             <label class="contact__form__group__label" for="name">Full name</label>
                             <input type="text" class="contact__form__group__input" id="name" name="name">
@@ -34,7 +38,8 @@
                             <label class="contact__form__group__label" for="message">Message</label>
                             <textarea class="contact__form__group__input" id="message" name="message" rows="4"></textarea>
                         </div>
-                        <button type="submit" class="contact__form__button">
+                        <input type="hidden" name="g-recaptcha-response" id="g-recaptcha-response">
+                        <button class="contact__form__button" id="submitButton" onclick="onClick(event)">
                             <a class="contact__form__button__link">Request Free Consultation</a></button>
                     </form>
                     </div>
@@ -43,3 +48,19 @@
         </div>
     </div>
 </div>
+<script>
+    function onClick(e) {
+        e.preventDefault();
+        const submitButton = document.getElementById('submitButton');
+        if (submitButton) {
+            submitButton.disabled = true;
+        }
+        grecaptcha.ready(function () {
+            grecaptcha.execute("{{env('RECAPTCHA_SITE_KEY')}}", {action: 'submit'}).then(function (token) {
+                document.getElementById("g-recaptcha-response").value = token;
+                document.getElementById("captcha").submit();
+            });
+        });
+    }
+</script>
+

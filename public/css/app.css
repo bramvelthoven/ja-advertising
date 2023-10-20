@@ -1,10 +1,4 @@
-@import url(https://fonts.googleapis.com/css2?family=Kanit&display=swap);
-@import url(https://fonts.googleapis.com/css2?family=Kanit:wght@200&display=swap);
-@import url(https://fonts.googleapis.com/css2?family=Kanit:wght@300&display=swap);
-@import url(https://fonts.googleapis.com/css2?family=Kanit:wght@400&display=swap);
-@import url(https://fonts.googleapis.com/css2?family=Kanit:wght@500&display=swap);
-@import url(https://fonts.googleapis.com/css2?family=Kanit:wght@600&display=swap);
-@import url(https://fonts.googleapis.com/css2?family=Kanit:wght@700&display=swap);
+@import url(https://fonts.googleapis.com/css?family=Kanit:wght@200,300,400,500,600,700&display=swap);
 @import url(https://fonts.googleapis.com/css2?family=Poppins&display=swap);
 @charset "UTF-8";
 /* Variables */
@@ -12322,6 +12316,7 @@ p {
   background: url("/images/pages/contact-bg.png") no-repeat;
   height: 550px;
   background-size: cover;
+  position: relative;
 }
 @media (max-width: 768px) {
   .contact-banner {
@@ -12429,7 +12424,14 @@ p {
   display: flex;
   background-color: #0C0C17;
   color: #FFFFFF;
-  height: 75px;
+  height: 65px;
+  font-size: 14px;
+}
+@media (max-width: 768px) {
+  .copyright {
+    width: 40px;
+    font-size: 12px;
+  }
 }
 
 .footer {
@@ -12441,9 +12443,6 @@ p {
     padding-top: 10px;
     width: 50%;
   }
-}
-.footer__column > h4, .footer__column > .h4 {
-  text-decoration: underline;
 }
 .footer__column__brand {
   height: 100px;
@@ -12492,7 +12491,6 @@ p {
   padding: 15px 0;
 }
 .footer__column__icon {
-  padding: 0 10px;
   height: auto;
-  width: 45px;
+  width: 25px;
 }
