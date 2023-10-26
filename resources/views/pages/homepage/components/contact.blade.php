@@ -23,8 +23,10 @@
                     form below.</h3>
                         <form id="captcha" action="sendemail" method="POST" >
                             @csrf
-                            @if(Session::has('message'))
-                                    {{ Session::get('message') }}
+                            @if (session('alert'))
+                                <div class="alert alert-success" role="alert">
+                                    {{ session('alert') }}
+                                </div>
                             @endif
                         <div class="contact__form__group">
                             <label class="contact__form__group__label" for="name">Full name</label>

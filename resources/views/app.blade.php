@@ -14,9 +14,14 @@
     <link rel="icon" type="image/png" sizes="16x16" href="{{ asset('/images/favicons/favicon-16x16.png') }}">
     <link rel="manifest" href="{{ asset('/images/favicons/site.webmanifest') }}">
     <link rel="mask-icon" href="{{ asset('/images/favicons/safari-pinned-tab.svg') }}" color="#5bbad5">
+    {{--Metatags--}}
     <meta name="msapplication-TileColor" content="#da532c">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="theme-color" content="#ffffff">
+    <meta name="description" content="Your Advertising Solution - Boost Your Business with JA Advertising">
+    <meta name="keywords" content="Ja advertising, advertising services, digital marketing, online advertising, Ja, Marketing, Leads">
+    <meta name="author" content="J Advertising">
+    <meta name="robots" content="index, follow">
 </head>
 <body>
 <header>
@@ -31,6 +36,7 @@
 
 {{--Javascript--}}
 <script src="{{ mix('/js/app.js') }}"></script>
+{{--Google Captcha --}}
 <script src="https://www.google.com/recaptcha/api.js?render=6LcFda4oAAAAAOe0O2sTVtx7oY6dWeMbTSEs40w4"></script>
 </body>
 </html>

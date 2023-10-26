@@ -46,7 +46,7 @@ class PageController extends Controller
                 ['data' => $data, 'bericht' => $bericht, 'email' => $email, 'naam' => $naam]
             ));
 
-        return redirect()->to('#contact')->with('message', "Aanvraag gelukt $naam. Wij nemen zo spoedig mogelijk contact met u op");
+        return redirect()->to('#contact')->with('alert', "Aanvraag gelukt $naam. Wij nemen zo spoedig mogelijk contact met u op");
 
     }
     private function Form_To_Array($arr)
