@@ -9,7 +9,8 @@
             </div>
         </div>
         <div class="row mb-4">
-            <div class="col-lg-4 col-md-6 col-sm-12 mb-4">
+            {{--First card--}}
+            <div class="col-lg-4 col-md-4 col-sm-12 mb-4">
                 <div class="services__card">
                     <div class="services__card__body">
                         <div class="services__card__body__content">
@@ -30,7 +31,8 @@
                     </div>
                 </div>
             </div>
-            <div class="col-lg-4 col-md-6 col-sm-12 mb-4">
+            {{--Second card--}}
+            <div class="col-lg-4 col-md-4 col-sm-12 mb-4">
                 <div class="services__card">
                     <div class="services__card__body">
                         <div class="services__card__body__content">
@@ -51,7 +53,8 @@
                     </div>
                 </div>
             </div>
-            <div class="col-lg-4 col-md-6 col-sm-12 mb-4">
+            {{--Third card--}}
+            <div class="col-lg-4 col-md-4 col-sm-12 mb-4">
                 <div class="services__card">
                     <div class="services__card__body">
                         <div class="services__card__body__content">
@@ -62,69 +65,6 @@
                                 We're a small group of <br>
                                 experienced designers and <br>
                                 working closely with our clients.
-                            </p>
-                            <button class="services__card__body__content__button">
-                                <a class="services__card__body__content__button__link">Learn more
-                                    <img class="services__card__body__content__button__arrow"
-                                         src="{{ asset("images/icons/services-button-arrow.svg") }}" alt="arrow"></a>
-                            </button>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="col-lg-4 col-md-6 col-sm-12 mb-4">
-                <div class="services__card">
-                    <div class="services__card__body">
-                        <div class="services__card__body__content">
-                            <img src="{{ asset("images/icons/services-icon-4.svg") }}"
-                                 class="services__card__body__content__icon" alt="services-icon">
-                            <h3 class="services__card__body__content__title">App Solutions</h3>
-                            <p class="services__card__body__content__text">
-                                That is the simply dummy text <br>
-                                of the printing and typesetting <br>
-                                industry purpose.
-                            </p>
-                            <button class="services__card__body__content__button">
-                                <a class="services__card__body__content__button__link">Learn more
-                                    <img class="services__card__body__content__button__arrow"
-                                         src="{{ asset("images/icons/services-button-arrow.svg") }}" alt="arrow"></a>
-                            </button>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="col-lg-4 col-md-6 col-sm-12 mb-4">
-                <div class="services__card">
-                    <div class="services__card__body">
-                        <div class="services__card__body__content">
-                            <img src="{{ asset("images/icons/services-icon-5.svg") }}"
-                                 class="services__card__body__content__icon" alt="services-icon">
-                            <h3 class="services__card__body__content__title">Logo Branding</h3>
-                            <p class="services__card__body__content__text">
-                                That is the simply dummy text <br>
-                                of the printing and typesetting <br>
-                                industry purpose.
-                            </p>
-                            <button class="services__card__body__content__button">
-                                <a class="services__card__body__content__button__link">Learn more
-                                    <img class="services__card__body__content__button__arrow"
-                                         src="{{ asset("images/icons/services-button-arrow.svg") }}" alt="arrow"></a>
-                            </button>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="col-lg-4 col-md-6 col-sm-12 mb-4">
-                <div class="services__card">
-                    <div class="services__card__body">
-                        <div class="services__card__body__content">
-                            <img src="{{ asset("images/icons/services-icon-6.svg") }}"
-                                 class="services__card__body__content__icon" alt="services-icon">
-                            <h3 class="services__card__body__content__title">UI/UX DESIGN</h3>
-                            <p class="services__card__body__content__text">
-                                it is a long-established fact that <br>
-                                a reader will be distracted by <br>
-                                the readable content of a page.
                             </p>
                             <button class="services__card__body__content__button">
                                 <a class="services__card__body__content__button__link">Learn more
