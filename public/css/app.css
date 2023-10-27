@@ -12430,6 +12430,7 @@ p {
 .copyright {
   align-items: center;
   justify-content: center;
+  text-align: center;
   display: flex;
   background-color: #0C0C17;
   color: #FFFFFF;
