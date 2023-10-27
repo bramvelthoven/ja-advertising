@@ -23,7 +23,7 @@
             </button>
         </div>
         <div class="col-lg-6 col-md-12 col-sm-12 col-xs-12 col-12 mx-auto order-md-1 p-0 p-md-4 about__image__container">
-            <img src="{{ asset('/images/pages/about-image.webp') }}" class="about__image" alt="about-image">
+            <img src="{{ asset('/images/pages/about-image.webp') }}" class="about__image" alt="about-image" loading="lazy">
         </div>
     </div>
 </div>
