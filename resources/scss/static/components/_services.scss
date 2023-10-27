@@ -100,8 +100,6 @@
                         text-decoration: none;
                         color: black;
                         font-size: $font-size-base;
-                        display: flex;
-                        justify-content: center;
 
                         @media (max-width: 768px) {
                             font-size: 14px;
