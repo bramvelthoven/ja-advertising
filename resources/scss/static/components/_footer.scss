@@ -8,7 +8,7 @@
     font-size: 14px;
 
     @media (max-width: 768px) {
-        width: 40px;
+        height: 40px;
         font-size: 12px;
     }
 }
@@ -84,6 +84,12 @@
         &__icon {
             height: auto;
             width: 25px;
+            pointer-events: visible;
+            user-select: none;
+            -moz-user-select: none;
+            -webkit-user-drag: none;
+            -webkit-user-select: none;
+            -ms-user-select: none;
         }
 
     }

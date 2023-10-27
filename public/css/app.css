@@ -12238,6 +12238,11 @@ p {
 .services__header__title {
   margin-bottom: 20px;
 }
+@media (max-width: 768px) {
+  .services__header__title {
+    font-size: 42px;
+  }
+}
 .services__button__small {
   background-color: rgba(232, 57, 44, 0.1);
   border: none;
@@ -12349,6 +12354,11 @@ p {
   font-weight: 500;
   padding: 10px 0;
 }
+@media (max-width: 768px) {
+  .contact__title {
+    font-size: 46px;
+  }
+}
 .contact__text {
   font-size: 18px;
   font-weight: 300;
@@ -12428,7 +12438,7 @@ p {
 }
 @media (max-width: 768px) {
   .copyright {
-    width: 40px;
+    height: 40px;
     font-size: 12px;
   }
 }
@@ -12492,4 +12502,10 @@ p {
 .footer__column__icon {
   height: auto;
   width: 25px;
+  pointer-events: visible;
+  user-select: none;
+  -moz-user-select: none;
+  -webkit-user-drag: none;
+  -webkit-user-select: none;
+  -ms-user-select: none;
 }

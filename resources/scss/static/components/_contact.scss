@@ -34,6 +34,10 @@
         line-height: 56px;
         font-weight: 500;
         padding: 10px 0;
+
+        @media (max-width: 768px) {
+            font-size: 46px;
+        }
     }
 
     &__text {

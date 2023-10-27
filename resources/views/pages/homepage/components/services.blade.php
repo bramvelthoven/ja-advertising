@@ -9,7 +9,7 @@
             </div>
         </div>
         <div class="row mb-4">
-            <div class="col-lg-4 col-md-6 col-sm-12">
+            <div class="col-lg-4 col-md-6 col-sm-12 mb-4">
                 <div class="services__card">
                     <div class="services__card__body">
                         <div class="services__card__body__content">
