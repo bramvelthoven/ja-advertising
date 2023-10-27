@@ -30,7 +30,7 @@ You can also run a development server that watches for changes in your assets an
 
 When you are ready to deploy your project, you can use the following command to create a production build:
 
-- npm run build
+- npm run prod or (production)
 
 ## Project Structure
 Here's a brief overview of the project structure:
