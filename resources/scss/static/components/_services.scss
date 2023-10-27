@@ -103,6 +103,11 @@
                         display: flex;
                         justify-content: center;
 
+                        @media (max-width: 768px) {
+                            font-size: 14px;
+                            width: 130px;
+                        }
+
                     }
 
                 }

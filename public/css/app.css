@@ -12315,6 +12315,12 @@ p {
   display: flex;
   justify-content: center;
 }
+@media (max-width: 768px) {
+  .services__card__body__content__button__link {
+    font-size: 14px;
+    width: 130px;
+  }
+}
 
 .contact-banner {
   background: url("/images/pages/contact-bg.png") no-repeat;
@@ -12441,6 +12447,7 @@ p {
   .copyright {
     height: 40px;
     font-size: 12px;
+    padding: 0 20px;
   }
 }
 

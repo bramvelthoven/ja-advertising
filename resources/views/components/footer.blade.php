@@ -46,5 +46,5 @@
     </div>
 </div>
 <div class="col-12 copyright">
-    &copy 2023 advertising. All rights reserved. Development by Cellest-IT.
+    &copy 2023 Jadvertising. All rights reserved. Development by Cellest-IT.
 </div>
